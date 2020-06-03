@@ -6,4 +6,10 @@ Queue Based Throttling:
              Inside of a single JVM (Consumer JVM), you can setup multiple Queue Listeners and that would be a throttle.  OR
              the Fixed Thread Pool using ExecutorSErvice can work as a Throttle as well OR
              a blocking queue
+             
+    Also, now I have added a pub/sub example.
+    
+    You may need to  Create a Durable Subscriber (set Client ID, subscribername on connection)
+    in case you do NOT want to miss any messages that a subscriber may miss if it goes down. ActiveMQ then tracks using Client ID.
+    
   
