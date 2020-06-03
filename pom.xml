@@ -20,7 +20,7 @@
         <dependency>
             <groupId>org.apache.activemq</groupId>
             <artifactId>activemq-client</artifactId>
-            <version>RELEASE</version>
+            <version>5.15.9</version>
         </dependency>
 
         <dependency>
