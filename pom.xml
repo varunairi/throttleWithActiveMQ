@@ -28,6 +28,12 @@
             <artifactId>activemq-kahadb-store</artifactId>
             <version>RELEASE</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.qpid</groupId>
+            <artifactId>qpid-jms-client</artifactId>
+            <version>0.51.0</version>
+        </dependency>
     </dependencies>
 
 </project>
